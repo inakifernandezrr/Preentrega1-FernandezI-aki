@@ -1,70 +1,86 @@
-body{
-    background-color: black;
+body {
+  background-color: black;
 }
 
-.NavLogo{
-    width: 150px;
+.NavLogo {
+  width: 150px;
 }
 
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
 
-a{
-    text-decoration: none;
-    color: white;
+a {
+  text-decoration: none;
+  color: #666666;
 }
-a:hover{
-    color: red
-    
-}
-
-p{
-    color: red;
+a:hover {
+  color: #4c2880;
 }
 
-span{
-    color: white;
+p {
+  color: #4c2880;
 }
 
-header{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    border-bottom: solid 1px white;
-}
-nav{ 
-    width: 100%;
+span {
+  color: #666666;
 }
 
-.container-nav{
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+header {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  border-bottom: solid 0.1px #4c2880;
+}
+nav {
+  width: 100%;
 }
 
-.material-symbols-outlined{
-    position: absolute;
-    right: 32px;
-    top: 42px;
+.container-nav {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.number{
-
-    position: absolute;
-    right: 32px;
-    top: 12px;
-} 
-
-h1{
-    color: red;
-    
+.material-symbols-outlined {
+  position: absolute;
+  right: 32px;
+  top: 42px;
 }
 
-.greeting{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    
+.number {
+  position: absolute;
+  right: 32px;
+  top: 12px;
 }
+
+h1 {
+  color: #4c2880;
+}
+
+.greeting {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.titleCarrito {
+  color: #666666;
+}
+.contador {
+  color: #4c2880;
+}
+
+button {
+  margin: 2px;
+  padding: 10px;
+  color: #666666;
+}
+.chartContainer {
+  border: solid 1px #4c2880;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+

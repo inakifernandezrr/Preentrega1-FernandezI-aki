@@ -23,6 +23,7 @@ const NavBar = () => {
         </nav>
       </header>
       <CartWidget />
+     
     </>
   );
 };
